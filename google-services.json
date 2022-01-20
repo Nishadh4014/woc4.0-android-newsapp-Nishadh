@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "77877307360",
+    "project_id": "pocket-news-694ab",
+    "storage_bucket": "pocket-news-694ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77877307360:android:c6ab499fd4299da4546d85",
+        "android_client_info": {
+          "package_name": "com.example.pocketnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77877307360-bgtdj277sthjbuddkjbp9ptos6cpig8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4hoBQT-I1wYV1xsd3Fb80KbMVnsE6RQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77877307360-bgtdj277sthjbuddkjbp9ptos6cpig8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
