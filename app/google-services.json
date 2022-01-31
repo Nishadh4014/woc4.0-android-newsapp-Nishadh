@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "823419710716",
+    "project_id": "winter-of-code-46f90",
+    "storage_bucket": "winter-of-code-46f90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823419710716:android:12d8a6ea4c3cc1fbcefb79",
+        "android_client_info": {
+          "package_name": "com.example.newsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823419710716-8lg8up3fogac8hkm64tkhqa4d79dr2ia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyE6oaGNgsK9m4l1mC4g9wamHDBW_0IBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823419710716-8lg8up3fogac8hkm64tkhqa4d79dr2ia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
