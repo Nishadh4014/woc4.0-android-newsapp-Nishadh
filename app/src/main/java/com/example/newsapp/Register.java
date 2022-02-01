@@ -51,7 +51,7 @@ public class Register extends AppCompatActivity {
             public void onClick(View v) {
                 String email = editText2.getText().toString().trim();
                 String password = editText3.getText().toString().trim();
-
+                //String confirm_password = editText4.getText().toString().trim();
                 if(TextUtils.isEmpty(email)) {
                     editText2.setError("Email is Required");
                     return;
@@ -64,6 +64,7 @@ public class Register extends AppCompatActivity {
                     editText3.setError("Password must have at least 6 characters");
                     return;
                 }
+
                 fAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
