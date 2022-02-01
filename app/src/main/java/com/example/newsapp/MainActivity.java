@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements SelectListner, Vi
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String s) {
-                dialog.setTitle("Loading News Articles of "+s);
+                dialog.setTitle("Loading...");
                 dialog.show();
                 RequestManager manager = new RequestManager(MainActivity.this);
                 manager.getNewsHeadlines(listener,"general",s);
@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity implements SelectListner, Vi
             if(list.isEmpty())
             {
                 Toast.makeText(MainActivity.this, "No Data Found!", Toast.LENGTH_SHORT).show();
+                dialog.dismiss();
             }
             else {
                 showNews(list);
@@ -104,7 +105,7 @@ public class MainActivity extends AppCompatActivity implements SelectListner, Vi
     public void onClick(View v) {
         Button button = (Button) v;
         String category = button.getText().toString();
-        dialog.setTitle("Loading News Articles of " + category);
+        dialog.setTitle("Loading...");
         dialog.show();
         RequestManager manager = new RequestManager(this);
         manager.getNewsHeadlines(listener,category,null);
